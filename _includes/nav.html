@@ -1,0 +1,16 @@
+<ul class="menu">
+
+    {% for nishant in site.data.menu %}
+    {% if nishant.subcategories != null %}
+    <li><a href="{{ nishant.href }}" class="page-link">{{ nishant.title }}</a>
+    <ul class="sub-menu">
+    {% for subcategory in nishant.subcategories %}
+    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+    {% endfor %}
+    </ul>
+    {% else %}
+     <li><a href="{{ nishant.href }}" class="page-link">{{ nishant.title }}</a>
+    {% endif %}
+    </li>
+    {% endfor %}
+    </ul>

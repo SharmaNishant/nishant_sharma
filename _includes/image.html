@@ -1,0 +1,12 @@
+<dl id="" class="wp-caption align{{include.align}}" style="max-width: {{include.width}}px; {% if include.text-align %} text-align: {{include.text-align}} {% endif %}" >
+	<dt> 
+		{% if include.href %} 
+			<a href="{{ include.href }}"> 
+		{% endif %} 
+				<img class="" src="{{ include.url }}" alt="{{ include.caption }}" width="{{include.width}}"/>  
+		{% if include.href %}
+			</a> 
+		{% endif %} 
+	</dt>
+	<dd>{{ include.caption }}</dd>
+</dl>
