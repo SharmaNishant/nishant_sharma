@@ -1,35 +1,35 @@
 - title: "About"
   href: "/"
 
-- title: "Research"
-  href: "/research/"
+#- title: "Research"
+#  href: "/research/"
 #  subcategories:
 #  - subtitle: "Rate based Static Impact Analysis"
 #    subhref: "/research/rsia/"
 #  - subtitle: "BugFlood"
 #    subhref: "/research/bug-flood/"
 #  - subtitle: "Foraging for Swarm Robots"
-#    subhref: "/research/swarm-robio/" 
-  
+#    subhref: "/research/swarm-robio/"
+
 #- title: "Publications"
 #  href: "/publications/"
 
-- title: "Projects"
-  href: "/projects/"
+#- title: "Projects"
+#  href: "/projects/"
 #  subcategories:
 #  - subtitle: "During Graduate Studies"
 #    subhref: "/projects/ms/"
 #  - subtitle: "During Undergraduate Studies"
 #    subhref: "/projects/ug/"
-  
-      
+
+
 #- title: "Blog"
 #  href: "/blog/"
-  
+
 #- title: "Contact"
 #  href: "/contact/"
 
-- title: "CV"
-  href: "/cv/"
+#- title: "CV"
+#  href: "/cv/"
 
 

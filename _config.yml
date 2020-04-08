@@ -1,12 +1,13 @@
 # Site settings
 title: Nishant Sharma
-email: nsharma@cse.unl.edu
+email: "nishant (dot) s [dot] 1994 at GMAIL"
 description: > # this means to ignore newlines until "baseurl:"
-  I am currently a graduate student at UNL. 
+  I am currently a graduate student at UNL.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://nishantsharma.me" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  SharmaNishant
+linkedin_username: nsharmanishant
 
 # Build settings
 markdown: kramdown
